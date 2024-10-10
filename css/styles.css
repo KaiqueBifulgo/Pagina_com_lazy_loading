@@ -58,3 +58,34 @@ body {
 footer p {
     padding: 10px;
 }
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 450px){
+   /* NAV */
+   #title {
+    font-size: 1.5rem;
+   }
+   
+   
+    /* IMAGENS */
+   .container {
+    width: 100%;
+   }
+
+   .images-article img {
+    width: 420px;
+    height: 200px;
+   }
+   
+   .images-article p {
+    text-align: center;
+    padding: 10px;
+   }
+   
+   
+    /* RODAPE */
+    footer p {
+        text-align: center;
+    }
+}
