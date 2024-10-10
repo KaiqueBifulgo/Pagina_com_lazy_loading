@@ -1,0 +1,60 @@
+/* GERAL */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: #2c6ab5;
+}
+
+#title {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    color: #dbe9dc;
+    background-color: #020e03;
+}
+
+/* CONTAINER DE IMAGENS */
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.images-article {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #020e03;
+}
+
+.images-article img {
+    display: block;
+    margin: 1.4rem auto 1rem;
+    width: 1000px;
+    height: 600px;
+    border: 2px solid #020e03;
+}
+
+.images-article h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-top: 1rem;
+    color: #dbe9dc;
+    -webkit-text-stroke-color: #020e03;
+    -webkit-text-stroke-width: 1px;
+}
+
+.images-article p {
+    text-align: center;
+    color: #dbe9dc;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* RODAPE */
+footer p {
+    padding: 10px;
+}
